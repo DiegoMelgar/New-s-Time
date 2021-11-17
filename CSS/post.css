@@ -1,0 +1,38 @@
+.post{
+  margin: 0 2%;
+  display: grid;
+  grid-template-rows: repeat(4,auto);
+  grid-gap: 15px;
+}
+
+.rowPost{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 3% 0;
+}
+
+.carrousel{
+  position: relative;
+  overflow: hidden;
+}
+
+.row{
+  cursor: pointer;
+  top: 170px;
+  z-index: 100;
+}
+
+.row i{
+  font-size: 2rem;
+}
+
+.row-left{
+  position: absolute;
+}
+
+.row-right{
+  position: absolute;
+  right: 1px;
+}
+
